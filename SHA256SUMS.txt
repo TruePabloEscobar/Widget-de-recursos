@@ -1,0 +1,3 @@
+b93d64646ffae2bd2b8eed116af13d3bfb5873a9b426783c4fbf67e2a8164fff  PainelSistema.exe
+5603c600a9c39ac4adaaf33bb6c96f04293e8797ca13e04921b77e8e3dd05ab0  Iniciar Widget.bat
+0f24809cb8ee793c95e6ecc76d00b71e1b6ad1502a1495affcd00bfa0ff6f20a  README.md
