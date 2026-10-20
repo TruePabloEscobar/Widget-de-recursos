@@ -2,6 +2,8 @@
 
 Baixe em **Code → Download ZIP**, extraia a pasta inteira e abra `PainelSistema.exe` ou `Iniciar Widget.bat`. Não exige Python instalado. Windows 64 bits.
 
+Versão: **1.1.0**.
+
 Arraste para mover. Dê dois cliques para abrir **Configurações**:
 
 - Visão: Tudo, Só gráficos ou Só círculos.
@@ -11,6 +13,7 @@ Arraste para mover. Dê dois cliques para abrir **Configurações**:
 - Temas: Original, Grunge, Nexus (HUD), Ironworks (analógico), Mono, Phosphor (terminal), Mixer (console), Orbit (planetas), Glass (vidro), Blueprint (esquemático), Stack (cartões) e Spectrum (barras dinâmicas).
 - Em Configurações, clique em **Temas** para abrir a janela de miniaturas. Clique em qualquer bloco para aplicar o visual imediatamente. A janela continua aberta para experimentar outras opções; use a rolagem para ver todos e **Fechar**, X ou Esc quando terminar. A escolha fica salva. O seletor pode ser movido e redimensionado e não bloqueia o widget.
 - Sempre visível: mantém o widget sobre as janelas comuns. Jogos em tela cheia exclusiva e a área de trabalho segura do Windows podem se sobrepor.
+- Atualizar widget: consulta o repositório público no GitHub ao clicar. Mostra a versão instalada e avisa se há uma versão mais nova. O botão de download abre o ZIP do GitHub no navegador; extraia em uma pasta de sua escolha. Para substituir a instalação, feche o widget antes e preserve `painel_sistema.cfg`. Não substitui arquivos automaticamente nem exige Git instalado.
 - Inicializar com Windows: ativa/desativa a abertura ao entrar na sua conta, sem privilégios de administrador. Só é ativada por você. Se mover a pasta, desmarque e marque novamente. Desmarque antes de remover o programa.
 
 As preferências são salvas em `painel_sistema.cfg`, ao lado do executável. Extraia para uma pasta onde você possa gravar, como Documentos. O arquivo pessoal de configuração não é incluído no download. O Windows pode atrasar a abertura no login ou desabilitar a entrada pelo Gerenciador de Tarefas.
@@ -21,4 +24,6 @@ Telemetria via psutil e sensores disponíveis: valores indisponíveis aparecem c
 
 Desenvolvido por [pablo escobar](https://pabloescobardj.web.app/Wikipedia-Pablo-Escobar.html).
 
-`SHA256SUMS.txt` contém os hashes SHA-256 dos três arquivos de distribuição.
+`SHA256SUMS.txt` contém os hashes SHA-256 dos quatro arquivos de distribuição (incluindo version.json).
+
+`version.json` informa a versão e o SHA-256 do executável para a consulta de updates. Publicações anteriores sem esse arquivo são identificadas como sem numeração; o widget não afirma que sejam novas nem que você esteja atualizado. Sem conexão ou sob limite da API, oferece tentar novamente.
